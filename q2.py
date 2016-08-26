@@ -1,9 +1,11 @@
 ## Author: Adriana Rivera
-## Date: 07/27/2014
-## Question 2 for data science technical screen. Zipfian Academy Data Science Immersive - Fall 2014
-## Assuming a line is a paragraph.
+##   Text content analyzer. This is a tool used by writers to find statistics 
+## such as word and sentence count on essays or articles they are writing.
+## INPUT: Text file
+## OUTPUT: Total word count, unique words and sentence count.
+
 ## Assuming a number is a word.
-## Project done with a little bit of rush since I am going out of town, so not working much on efficiency.
+## Assuming a line is a paragraph.
 ## I didn't check for boundary situations, or handleling of special characters like (').
 
 def loadWords(line):
